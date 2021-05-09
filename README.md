@@ -31,13 +31,11 @@ Você deve utilizar um `BrowserRouter` pra criar as rotas da sua aplicação. As
 
 Para buscar a lista, você deve utilizar a função `getMovies` importada do módulo `movieAPI` em `MovieList`. Essa função retorna uma _promise_. A requisição deve ser feita no momento em que o `MovieList` for montado no DOM. Enquanto a requisição estiver em curso, `MovieList` deve renderizar o componente `Loading`, como ilustrado na imagem a seguir.
 
-![image](loading.png)
 
 Obs: O componente `Loading` deve conter o texto `Carregando...`
 
 Uma vez que a requisição retornar, o resultado deve ser renderizado. Para cada filme, renderize um componente `MovieCard`, como ilustrado abaixo.
 
-![image](index.png)
 
 Você precisará adicionar um estado em `MovieList` para controlar o que será exibido.
 
@@ -83,8 +81,6 @@ Os campos devem existir no cartão conforme ilustrado na imagem abaixo.
 - Será validado se `MovieDetails` contém um botão com o texto "VOLTAR" que redireciona para a página inicial
 
 - Será validado se `MovieDetails` contém um botão com o texto "EDITAR" que redireciona para a página de edição de filme
-
-![image](card-details.png)
 
 ### Para os requisitos 5 e 6:
 
