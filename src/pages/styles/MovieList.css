@@ -1,9 +1,7 @@
 .movie-list {
   display: flex;
+  height: 100%;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: rgb(238, 174, 202);
-  background: linear-gradient( 126deg, rgba(238, 174, 202, 1) 0%, rgba(203, 179, 214, 1) 50%, rgba(148, 187, 233, 1) 100%
-  );
 }
