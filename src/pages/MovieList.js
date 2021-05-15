@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Loading from '../components/Loading';
 import MovieCard from '../components/MovieCard';
+import './styles/MovieList.css'
 
 import * as movieAPI from '../services/movieAPI';
 
@@ -29,7 +30,7 @@ class MovieList extends Component {
     const { movies, loading } = this.state;
 
     return (
-      <div data-testid="movie-list">
+      <div className="movie-list" data-testid="movie-list">
         {loading === true
           ? <Loading />
           : movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
