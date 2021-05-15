@@ -1,5 +1,20 @@
 .movie-card {
-  border: 1px solid black;
-  width: 300px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0 10px 10px 10px;
+  width: 250px;
   height: 350px;
+  margin: 25px 0 10px 0;
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }

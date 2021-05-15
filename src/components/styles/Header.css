@@ -1,9 +1,10 @@
 .movie-card-header {
   align-items: center;
-  background-color: #343a40;
-  color: white;
+  background: rgb(238,174,202);
+  background: linear-gradient(126deg, rgba(238,174,202,1) 0%, rgba(203,179,214,1) 50%, rgba(148,187,233,1) 100%);
+  border-bottom: 5px solid black;
+  color: black;
   display: flex;
-  height: 100px;
+  height: 80px;
   justify-content: center;
-  margin-bottom: 25px;
 }
