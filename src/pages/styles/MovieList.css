@@ -1,7 +1,12 @@
 .movie-list {
   display: flex;
-  height: 100%;
-  align-items: center;
+  width: 100vw;
+  height: 100vh;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.movie-list {
+  background-image: url('../../assets/bg.png');
+  background-repeat: no-repeat;
 }
