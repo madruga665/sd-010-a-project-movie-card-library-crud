@@ -7,7 +7,7 @@
   border-radius: 40px 0 10px 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   width: 250px;
-  height: 350px;
+  height: 400px;
   margin: 10px 0 10px 0;
   transition: 0.3s;
 }
@@ -20,12 +20,21 @@
 
 .content {
   position: relative;
-  bottom: 0;
   text-align: center;
   padding: 10px;
 }
 .content p {
   font-size: 0.9rem;
+}
+
+.movie-card footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
 }
 
 .movie-card:hover {
