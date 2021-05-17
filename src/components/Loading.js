@@ -7,7 +7,7 @@ class Loading extends Component {
     return (
       <div className="loading">
         <img src={unicorn} alt="unicorn gif felix" />
-        Carregando...
+        <h2>Carregando...</h2>
       </div>
     );
   }
