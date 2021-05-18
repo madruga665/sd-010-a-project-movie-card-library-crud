@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import * as movieAPI from '../services/movieAPI';
 import { Loading } from '../components';
+import './styles/MovieDetails.css';
 
 class MovieDetails extends Component {
   constructor() {
@@ -39,19 +40,23 @@ class MovieDetails extends Component {
     if (loading) return <Loading />;
 
     return (
-      <div data-testid="movie-details">
+      <section className="movie-details-container" data-testid="movie-details">
         <img alt="Movie Cover" src={ `../${imagePath}` } />
-        <p>{`Title: ${title}`}</p>
-        <p>{ `Subtitle: ${subtitle}` }</p>
-        <p>{ `Storyline: ${storyline}` }</p>
-        <p>{ `Genre: ${genre}` }</p>
-        <p>{ `Rating: ${rating}` }</p>
-        <Link to="/">VOLTAR</Link>
-        <Link to={ `/movies/${id}/edit` }>EDITAR</Link>
-        <Link to="/" onClick={ () => this.deleteMovie() }>
-          DELETAR
-        </Link>
-      </div>
+        <div className="movie-details-content">
+          <h4>{title}: {subtitle}</h4>
+        <div className="genre-rating">
+          <p>{genre} </p>
+          <p>{rating}</p>
+        </div>
+          <h4>Storyline:</h4>
+          {storyline}
+        </div>
+        <div className="buttom-container">
+          <Link to="/">VOLTAR</Link>
+          <Link to={ `/movies/${id}/edit` }>EDITAR</Link>
+          <Link to="/" onClick={ () => this.deleteMovie() }>DELETAR</Link>
+        </div>
+      </section>
     );
   }
 }
