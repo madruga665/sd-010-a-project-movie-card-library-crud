@@ -1,0 +1,46 @@
+.movie-form-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.movie-form-control {
+  margin-top: 1rem;
+  width: 50%;
+}
+
+.movie-form-control input, textarea, select {
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.movie-form-control textarea {
+  height: 9rem;
+}
+
+.movie-form-container button {
+  cursor: pointer;
+  width: 100px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1rem;
+  color: black;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+.movie-form-container button:hover {
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
