@@ -7,11 +7,13 @@ import EditMovie from './pages/EditMovie';
 import NotFound from './pages/NotFound';
 import Header from './components/Header';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <BrowserRouter>
     <Header />
+    <Footer />
       <Switch>
         <Route exact path="/" component={ MovieList } />
         <Route path="/movies/new" component={ NewMovie } />

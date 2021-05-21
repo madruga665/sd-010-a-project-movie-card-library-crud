@@ -1,16 +1,25 @@
-.movie-card-header {
+.footer {
+  position: absolute;
+  bottom: -10vh;
   width: 100vw;
   align-items: center;
   background: rgb(238,174,202);
   background: linear-gradient(126deg, rgba(238,174,202,1) 0%, rgba(203,179,214,1) 50%, rgba(148,187,233,1) 100%);
-  border-bottom: 5px solid black;
+  border-top: 5px solid black;
   color: black;
   display: flex;
   height: 60px;
   justify-content: center;
 }
 
-.movie-card-header a {
+.footer a {
+  width: 200px;
   text-decoration: none;
+  text-align: center;
   color: black;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px;
 }
