@@ -1,16 +1,27 @@
 <img src="https://ik.imagekit.io/lltmkbsdtye/CAPA_LINKEDIN_PERFIL_PESSOAL03__1__7hO4TKpg5.png">
 
-# 🚀️ Projeto realizado no final do bloco 13
+# 🚀️ Projeto realizado no final do bloco 13 do curso.
 
-## 💚️ Resultado 💚️
+## 🏃‍♀️ Como rodar o projeto na sua maquina?
 
-<img src="./resultado-do-projeto.png">
+### 1. Faça um clone do projeto:
+```
+git clone https://github.com/madruga665/trybe-projeto-movie-card-library-crud.git
+```
 
----
+### 2. Instale as dependências:
 
-# Habilidades
+```
+npm install
+```
 
-Nesse projeto, você será capaz de:
+### 3. Rode a aplicação utilizando o comando:
+
+```
+npm start
+```
+
+# Habilidades Desenvolvidas:
 
 - Utilizar o componentDidMount para executar uma ação após o componente ser inserido no DOM;
 - Utilizar o shouldComponentUpdate para avaliar se uma atualização do componente deve ou não acontecer naquele momento;
