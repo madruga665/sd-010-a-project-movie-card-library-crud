@@ -2,6 +2,10 @@
 
 # 🚀️ Projeto realizado no final do bloco 13 do curso.
 
+[Link para acessar a aplicação](https://madruga665.github.io/trybe-projeto-movie-card-library-crud/)
+
+---
+
 ## 🏃‍♀️ Como rodar o projeto na sua maquina?
 
 ### 1. Faça um clone do projeto:
