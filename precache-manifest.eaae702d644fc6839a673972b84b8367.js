@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93277b2101c0f605e0a1a2356a320868",
+    "revision": "d86db0d9bea0e96e882e634eed0f3385",
     "url": "/trybe-projeto-movie-card-library-crud/index.html"
   },
   {
