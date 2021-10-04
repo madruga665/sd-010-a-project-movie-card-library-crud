@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trybe-projeto-movie-card-library-crud/static/css/main.17b5920a.chunk.css",
+    "main.js": "/trybe-projeto-movie-card-library-crud/static/js/main.8381f866.chunk.js",
+    "main.js.map": "/trybe-projeto-movie-card-library-crud/static/js/main.8381f866.chunk.js.map",
+    "runtime-main.js": "/trybe-projeto-movie-card-library-crud/static/js/runtime-main.87c39923.js",
+    "runtime-main.js.map": "/trybe-projeto-movie-card-library-crud/static/js/runtime-main.87c39923.js.map",
+    "static/js/2.24ab25d8.chunk.js": "/trybe-projeto-movie-card-library-crud/static/js/2.24ab25d8.chunk.js",
+    "static/js/2.24ab25d8.chunk.js.map": "/trybe-projeto-movie-card-library-crud/static/js/2.24ab25d8.chunk.js.map",
+    "index.html": "/trybe-projeto-movie-card-library-crud/index.html",
+    "precache-manifest.d7e92dfbfe83f4a174768a663169427a.js": "/trybe-projeto-movie-card-library-crud/precache-manifest.d7e92dfbfe83f4a174768a663169427a.js",
+    "service-worker.js": "/trybe-projeto-movie-card-library-crud/service-worker.js",
+    "static/css/main.17b5920a.chunk.css.map": "/trybe-projeto-movie-card-library-crud/static/css/main.17b5920a.chunk.css.map",
+    "static/media/MovieList.css": "/trybe-projeto-movie-card-library-crud/static/media/bg.e54442d9.png",
+    "static/media/unicorn.gif": "/trybe-projeto-movie-card-library-crud/static/media/unicorn.66463b37.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87c39923.js",
+    "static/js/2.24ab25d8.chunk.js",
+    "static/css/main.17b5920a.chunk.css",
+    "static/js/main.8381f866.chunk.js"
+  ]
+}
